@@ -1,8 +1,10 @@
 import React from "react";
+// imports
 import Expenses from "./components/Expenses/Expenses";
 import { NewExpense } from "./components/NewExpense/NewExpense";
 
 export default function App() {
+  // hard coded expenses
   const expenses = [
     {
       id: "e1",
@@ -26,7 +28,7 @@ export default function App() {
   ];
 
   const addExpenseHandler = (expense) => {
-    console.log("In App.js");
+    // logs the expense added to the expense list
     console.log(expense);
   };
 
